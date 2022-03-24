@@ -1,4 +1,4 @@
-# Intégration - Entrainement #2
+# Intégration
 
 Cette intégration est responsive.
 
