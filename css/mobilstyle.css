@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+:root {
+    --orange:  #ff6347;
+}
+body {
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+}
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+nav .menu{
+    display: none;
+}
+nav .burger {
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+nav svg {
+    color: white;
+    width: 13%;
+}
+nav img {
+    margin-left: 20px;
+}
+header {
+    background: url("../images/hero-image.jpg") no-repeat;
+    width: 100vw;
+    height: 65vh;
+    object-fit: cover;
+}
+header h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    padding: 25px 45px;
+    margin-bottom: 0;
+}
+header h1, .maj {
+    color: white;
+}
+header p {
+    text-align: center;
+    justify-content: center;
+    padding: 0 50px;
+    margin-bottom: 20px;
+}
+header .btn {
+    display: flex;
+    justify-content: center;
+    background-color: var(--orange);
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 35%;
+    border: 1px solid red;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.1rem;
+}
+header .code {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+/*main section*/
+main section .fond2 {
+    background-color: rgb(247, 245, 243);
+    padding-top: 35px;
+}
+main section {
+    padding-bottom: 20px;
+}
+main section div .academy {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+}
+main section div h1 {
+    text-align: center;
+    color: var(--orange);
+}
+main section div .trait {
+    border-top: solid 1px var(--orange);
+    width: 35%;
+    margin: auto;
+}
+main section div .p {
+    text-align: center;
+    padding: 0 20px;
+    margin: 20px;
+}
+main section div .p .red {
+    color: var(--orange);
+}
+main section h2 {
+    text-align: center;
+    color: var(--orange);
+}
+main section .trait2 {
+    border-top: solid 1px var(--orange);
+    width: 35%;
+    margin: auto;
+}
+main section .person {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90px;
+    height: 90px;
+}
+main section .aze {
+    padding-top: 40px;
+}
+main section .red3 {
+    text-align: center;
+    color: var(--orange);
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+main section p {
+    text-align: center;
+    padding: 10px 32px;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+main section .start {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 35%;
+    border: 1px solid red;
+    border-radius: 6px;
+    color: var(--orange);
+    text-decoration: none;
+}
+main section svg{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90px;
+    height: 90px;   
+}
+main section .red4 {
+    text-align: center;
+    color: var(--orange);
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+main section .chevrons, .chevrons2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid red;
+    border-radius: 6px;
+    color: var(--orange);
+    text-decoration: none;
+}
+footer {
+    background-color: var(--orange);
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+footer div {
+    color: white;
+    text-align: left;
+    
+}
+/* écran à partir de 1200px*/
+@media screen and (min-width: 1200px) { 
+    nav .menu{
+        display: block;
+    }
+    nav .burger {
+        
+    }
+
+}
